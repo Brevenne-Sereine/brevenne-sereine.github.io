@@ -55,6 +55,15 @@ header {
   color: var(--primary);
   text-decoration: none;
   letter-spacing: -0.5px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.logo-icon {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
 }
 
 .navbar ul {
