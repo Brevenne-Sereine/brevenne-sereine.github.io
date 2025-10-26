@@ -393,7 +393,7 @@ header {
 }
 
 .fixed-cta:hover::before {
-  transform: scale(1.2) rotate(10deg);
+  animation: heartbeat 0.8s ease-in-out infinite;
 }
 
 .fixed-cta:hover::after {
@@ -406,6 +406,24 @@ header {
   }
   100% {
     background-position: 200% 50%;
+  }
+}
+
+@keyframes heartbeat {
+  0%, 100% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(1.3);
+  }
+  20% {
+    transform: scale(1.1);
+  }
+  30% {
+    transform: scale(1.4);
+  }
+  40% {
+    transform: scale(1);
   }
 }
 
