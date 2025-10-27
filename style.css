@@ -327,7 +327,7 @@ header {
 .project ul {
   text-align: left;
   padding-left: 1.5rem;
-  color: var(--text-lighter);
+  color: var(--text-light);
   margin: 1rem 0;
 }
 
